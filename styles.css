@@ -1,15 +1,17 @@
 :root {
-  --ink: #202624;
-  --deep: #18211d;
-  --paper: #fffdf8;
-  --ivory: #f8f3ea;
-  --mist: #e8eee7;
-  --sage: #66745e;
-  --rose: #b7665d;
-  --clay: #9a563f;
-  --gold: #bd9351;
-  --line: rgba(32, 38, 36, 0.14);
-  --shadow: 0 24px 70px rgba(18, 24, 21, 0.16);
+  --ink: #16181f;
+  --deep: #102020;
+  --paper: #fffaf1;
+  --ivory: #f3eee4;
+  --mist: #e5ebe7;
+  --sage: #244447;
+  --rose: #b76a39;
+  --clay: #8d4e2c;
+  --gold: #c0985c;
+  --line: rgba(22, 24, 31, 0.12);
+  --shadow: 0 24px 70px rgba(15, 24, 37, 0.14);
+  --display-font: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "URW Palladio L", "Cormorant Garamond", Georgia, serif;
+  --body-font: "Avenir Next", Inter, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -24,7 +26,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--body-font);
   line-height: 1.55;
   overflow-x: hidden;
 }
@@ -79,7 +81,7 @@ img {
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--display-font);
   font-size: 1.05rem;
 }
 
@@ -133,17 +135,22 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--display-font);
   font-weight: 700;
   line-height: 0.98;
   letter-spacing: 0;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 h1 {
-  max-width: 760px;
+  max-width: 890px;
   margin-top: 18px;
-  font-size: 8.1rem;
+  font-size: 7.4rem;
+}
+
+h1 span {
+  display: block;
 }
 
 h2 {
@@ -215,7 +222,7 @@ h3 {
 .booking-strip p {
   max-width: 1020px;
   margin: 0;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--display-font);
   font-size: 2.55rem;
   font-weight: 600;
   line-height: 1.08;
@@ -269,7 +276,7 @@ h3 {
 .date-list strong {
   display: block;
   margin-bottom: 10px;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--display-font);
   font-size: 2rem;
   line-height: 1;
 }
@@ -569,7 +576,8 @@ textarea:focus {
   }
 
   h1 {
-    font-size: 5.8rem;
+    max-width: 700px;
+    font-size: 5.4rem;
   }
 
   h2 {
@@ -631,8 +639,8 @@ textarea:focus {
   }
 
   h1 {
-    max-width: 330px;
-    font-size: 3.22rem;
+    max-width: 354px;
+    font-size: 3.12rem;
   }
 
   h2 {
