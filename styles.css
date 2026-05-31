@@ -101,14 +101,16 @@ img {
 }
 
 .hero {
-  min-height: 86svh;
+  min-height: 82svh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   padding: 120px clamp(18px, 5vw, 76px) 74px;
   color: #fff;
   background:
-    linear-gradient(90deg, rgba(18, 24, 21, 0.82), rgba(18, 24, 21, 0.44), rgba(18, 24, 21, 0.06)),
-    url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2400&q=82") center / cover;
+    linear-gradient(115deg, rgba(16, 32, 32, 0.98), rgba(16, 32, 32, 0.86) 44%, rgba(40, 68, 71, 0.7)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 120px),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.026) 0 1px, transparent 1px 120px),
+    var(--deep);
 }
 
 .hero-content {
@@ -286,26 +288,6 @@ h3 {
   color: rgba(32, 38, 36, 0.7);
 }
 
-.image-band {
-  display: grid;
-  grid-template-columns: 1.05fr 0.9fr 0.9fr 1.05fr;
-  gap: 12px;
-  padding: 12px;
-  background: var(--paper);
-}
-
-.feature-image {
-  min-height: 34vw;
-  margin: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  background: var(--mist);
-}
-
-.feature-image.tall {
-  min-height: 46vw;
-}
-
 .promise-section {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(320px, 1fr);
@@ -430,8 +412,8 @@ h3 {
   gap: clamp(26px, 6vw, 74px);
   align-items: stretch;
   background:
-    linear-gradient(rgba(255, 253, 248, 0.88), rgba(255, 253, 248, 0.88)),
-    url("https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1800&q=82") center / cover;
+    linear-gradient(135deg, rgba(255, 253, 248, 0.95), rgba(243, 238, 228, 0.98)),
+    repeating-linear-gradient(90deg, rgba(22, 24, 31, 0.035) 0 1px, transparent 1px 112px);
 }
 
 .availability-card {
@@ -570,7 +552,7 @@ textarea:focus {
   }
 
   .hero {
-    min-height: 82svh;
+    min-height: 78svh;
     padding-top: 96px;
     background-position: 58% center;
   }
@@ -605,15 +587,6 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
-  .image-band {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .feature-image,
-  .feature-image.tall {
-    min-height: 54vw;
-  }
-
   .rate-card {
     min-height: 320px;
   }
@@ -634,8 +607,8 @@ textarea:focus {
   }
 
   .hero {
-    min-height: 84svh;
-    padding: 96px 18px 52px;
+    min-height: 78svh;
+    padding: 88px 18px 48px;
   }
 
   h1 {
@@ -675,17 +648,6 @@ textarea:focus {
 
   .proof-row div {
     min-height: 138px;
-  }
-
-  .image-band {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 10px;
-  }
-
-  .feature-image,
-  .feature-image.tall {
-    min-height: 78vw;
   }
 
   .promise-item {
