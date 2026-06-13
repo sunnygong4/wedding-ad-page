@@ -3,12 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Introductory summer wedding photography by Sunny Gong, available for selected weddings across the Metro Vancouver region.">
-  <title>Wedding Photography | Sunny Gong</title>
+  <!-- TODO: replace https://wedding.sunnygong.com with your final domain everywhere (canonical, og:url, JSON-LD, sitemap.xml, robots.txt) -->
+  <title>Wedding Photographer in Metro Vancouver | Sunny Gong Photography</title>
+  <meta name="description" content="Documentary wedding photography across Metro Vancouver — Coquitlam, Burnaby, Vancouver, Richmond, and Surrey. First-season founding rates from $400. Limited summer dates.">
+  <link rel="canonical" href="https://wedding.sunnygong.com/">
+  <meta name="theme-color" content="#102020">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23102020'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Georgia,serif' font-size='26' fill='%23fffaf1'%3ESG%3C/text%3E%3C/svg%3E">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wedding Photographer in Metro Vancouver | Sunny Gong Photography">
+  <meta property="og:description" content="Documentary wedding photography across Metro Vancouver. First-season founding rates from $400. Limited summer dates.">
+  <meta property="og:url" content="https://wedding.sunnygong.com/">
+  <meta property="og:site_name" content="Sunny Gong Photography">
+  <!-- Share image: decorative Unsplash photo for now; swap for your own once you have wedding work -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=630&fit=crop&q=70">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sunny Gong Photography",
+    "description": "Documentary wedding photography serving Metro Vancouver, British Columbia.",
+    "url": "https://wedding.sunnygong.com/",
+    "email": "sunny.gong4@gmail.com",
+    "priceRange": "$400 - $1,200",
+    "areaServed": [
+      { "@type": "City", "name": "Vancouver" },
+      { "@type": "City", "name": "Coquitlam" },
+      { "@type": "City", "name": "Burnaby" },
+      { "@type": "City", "name": "Richmond" },
+      { "@type": "City", "name": "Surrey" }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coquitlam",
+      "addressRegion": "BC",
+      "addressCountry": "CA"
+    },
+    "sameAs": ["https://image.sunnygong.com/"]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header" aria-label="Primary navigation">
@@ -19,6 +60,7 @@
     <nav class="nav-links" aria-label="Page links">
       <a href="#approach">Approach</a>
       <a href="#rates">Rates</a>
+      <a href="#faq">FAQ</a>
       <a href="#inquire">Inquire</a>
     </nav>
   </header>
@@ -33,7 +75,7 @@
           <span>with attention.</span>
         </h1>
         <p class="hero-copy">
-          Now booking a limited number of summer weddings across Metro Vancouver at an introductory rate. I photograph with a calm, documentary approach shaped by experience in events, portraits, and everyday life.
+          Booking my first season of weddings across Metro Vancouver at honest founding rates. I photograph with a calm, documentary approach shaped by years of events, portraits, and everyday life.
         </p>
         <div class="hero-actions" aria-label="Wedding inquiry actions">
           <a class="button button-primary" href="#inquire">Check availability</a>
@@ -89,12 +131,14 @@
       </div>
     </section>
 
+    <div class="photo-band" role="presentation" aria-hidden="true"></div>
+
     <section class="section rates-section" id="rates">
       <div class="rates-heading">
-        <p class="section-kicker">Introductory summer pricing</p>
-        <h2>Professional coverage with portfolio-building rates.</h2>
+        <p class="section-kicker">First wedding season — founding rates</p>
+        <h2>Experienced coverage, first-season prices.</h2>
         <p>
-          These packages are priced lower while I build wedding-specific portfolio work. The process is still organized, communicative, and client-facing from inquiry to delivery.
+          This is my first season photographing weddings, after years of events, portraits, and documentary work — and the rates say so honestly. You still get full preparation, attentive coverage, and polished delivery. See how I shoot in my <a href="https://image.sunnygong.com/" target="_blank" rel="noreferrer">general portfolio</a>.
         </p>
       </div>
 
@@ -103,7 +147,7 @@
           <div>
             <p class="rate-label">Civil ceremony</p>
             <h3>2 hours</h3>
-            <p class="price">From $650</p>
+            <p class="price">From $400</p>
           </div>
           <ul>
             <li>Ceremony coverage</li>
@@ -116,7 +160,7 @@
           <div>
             <p class="rate-label">Intimate wedding</p>
             <h3>4 hours</h3>
-            <p class="price">From $950</p>
+            <p class="price">From $700</p>
           </div>
           <ul>
             <li>Ceremony, portraits, and reception details</li>
@@ -129,7 +173,7 @@
           <div>
             <p class="rate-label">Full celebration</p>
             <h3>8 hours</h3>
-            <p class="price">From $1,650</p>
+            <p class="price">From $1,200</p>
           </div>
           <ul>
             <li>Getting ready through reception</li>
@@ -160,6 +204,41 @@
       </div>
     </section>
 
+    <section class="section faq-section" id="faq">
+      <p class="section-kicker">Common questions</p>
+      <h2>Quick answers before you write.</h2>
+      <div class="faq-list">
+        <details>
+          <summary>How far in advance should we book?</summary>
+          <p>As early as you can — summer weekends go first. That said, I keep a few short-notice dates open, so it is always worth asking even for a wedding a few weeks away.</p>
+        </details>
+        <details>
+          <summary>Why are the rates this low?</summary>
+          <p>Because this is my first wedding season, and I would rather say that plainly than pretend otherwise. I have years of experience photographing events, portraits, and documentary work — the founding rate is the honest trade: professional coverage at a price that reflects where my wedding portfolio is today.</p>
+        </details>
+        <details>
+          <summary>Can we see wedding photos you have taken?</summary>
+          <p>Not yet — that is exactly what the founding rate reflects. You can see how I photograph people, light, and real moments in my <a href="https://image.sunnygong.com/" target="_blank" rel="noreferrer">general portfolio</a>, and the first couples who book this summer will set the wedding gallery.</p>
+        </details>
+        <details>
+          <summary>When do we receive our photos?</summary>
+          <p>A small preview set arrives within 72 hours. The full edited gallery is delivered as a polished online gallery, typically within three to four weeks depending on coverage length.</p>
+        </details>
+        <details>
+          <summary>Do you travel outside Metro Vancouver?</summary>
+          <p>Yes. Anywhere in Metro Vancouver is included. For weddings further out — Fraser Valley, Squamish, Whistler, the Island — send the location and I will quote a simple travel addition.</p>
+        </details>
+        <details>
+          <summary>Can you cover tea ceremonies and multicultural weddings?</summary>
+          <p>Happily. Tea ceremonies, banquets, religious ceremonies, and multi-part days are welcome — tell me the schedule and I will plan coverage around it.</p>
+        </details>
+        <details>
+          <summary>How does booking work?</summary>
+          <p>Send the date and location through the form below. If I am available, we will confirm the package, and a simple agreement plus a retainer holds your date. The balance is due around the wedding day.</p>
+        </details>
+      </div>
+    </section>
+
     <section class="inquiry-section" id="inquire">
       <div class="inquiry-copy">
         <p class="section-kicker">Get in touch</p>
@@ -167,6 +246,7 @@
         <p>
           Tell me what kind of wedding you are planning, how much coverage you need, and the moments you most want photographed.
         </p>
+        <p class="inquiry-direct">Prefer email? Write directly to <a href="mailto:sunny.gong4@gmail.com">sunny.gong4@gmail.com</a>.</p>
       </div>
 
       <form class="inquiry-form" data-inquiry-form>
@@ -179,10 +259,14 @@
           <input name="email" type="email" autocomplete="email" required>
         </label>
         <label>
+          Phone <span class="optional">(optional)</span>
+          <input name="phone" type="tel" autocomplete="tel" placeholder="604 555 0123">
+        </label>
+        <label>
           Wedding date
           <input name="date" type="text" placeholder="June 28, 2026">
         </label>
-        <label>
+        <label class="wide">
           Location
           <input name="location" type="text" placeholder="Venue or city in Metro Vancouver">
         </label>
@@ -190,26 +274,81 @@
           What are you planning?
           <textarea name="details" rows="5" placeholder="Guest count, schedule, coverage length, and anything you already know"></textarea>
         </label>
+        <!-- Honeypot: hidden from people, bots fill it in -->
+        <label class="hp" aria-hidden="true">
+          Company
+          <input name="company" type="text" tabindex="-1" autocomplete="off">
+        </label>
         <button class="button button-primary wide" type="submit">Send inquiry</button>
+        <p class="form-status wide" data-form-status role="status" aria-live="polite"></p>
       </form>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Sunny Gong Photography / Metro Vancouver, British Columbia</p>
-    <a href="https://image.sunnygong.com/" target="_blank" rel="noreferrer">View portfolio</a>
+    <div>
+      <p>Sunny Gong Photography / Metro Vancouver, British Columbia</p>
+      <p class="footer-note">Decorative photos via Unsplash, shown while my first wedding galleries are in progress.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer links">
+      <a href="mailto:sunny.gong4@gmail.com">sunny.gong4@gmail.com</a>
+      <a href="https://image.sunnygong.com/" target="_blank" rel="noreferrer">View portfolio</a>
+    </nav>
   </footer>
 
+  <div class="mobile-cta" aria-hidden="false">
+    <a class="button button-primary" href="#inquire">Check availability — from $400</a>
+  </div>
+
   <script>
+    // ----- Inquiry form -----
+    // To save inquiries with a form service, paste your endpoint here,
+    // e.g. "https://formspree.io/f/abcdwxyz". Leave empty to fall back
+    // to opening the visitor's email app (mailto).
+    const FORM_ENDPOINT = "";
+
     const inquiryForm = document.querySelector("[data-inquiry-form]");
+    const statusEl = document.querySelector("[data-form-status]");
     const inquiryEmail = "sunny.gong4@gmail.com";
 
-    inquiryForm?.addEventListener("submit", (event) => {
+    inquiryForm?.addEventListener("submit", async (event) => {
       event.preventDefault();
       const formData = new FormData(inquiryForm);
+
+      // Honeypot tripped: silently pretend success.
+      if (formData.get("company")) {
+        statusEl.textContent = "Thank you — your inquiry has been sent.";
+        inquiryForm.reset();
+        return;
+      }
+      formData.delete("company");
+
+      if (FORM_ENDPOINT) {
+        const button = inquiryForm.querySelector("button[type=submit]");
+        button.disabled = true;
+        statusEl.textContent = "Sending…";
+        try {
+          const response = await fetch(FORM_ENDPOINT, {
+            method: "POST",
+            body: formData,
+            headers: { Accept: "application/json" }
+          });
+          if (!response.ok) throw new Error("Request failed");
+          statusEl.textContent = "Thank you — your inquiry has been sent. I will reply within a day.";
+          inquiryForm.reset();
+        } catch (error) {
+          statusEl.textContent = `Something went wrong. Please email ${inquiryEmail} directly.`;
+        } finally {
+          button.disabled = false;
+        }
+        return;
+      }
+
+      // Fallback: compose an email in the visitor's mail app.
       const labels = {
         name: "Name",
         email: "Email",
+        phone: "Phone",
         date: "Wedding date",
         location: "Location",
         details: "Details"
@@ -220,6 +359,7 @@
       const subjectDate = formData.get("date") || "summer date";
       const subject = encodeURIComponent(`Wedding inquiry: ${subjectDate}`);
       window.location.href = `mailto:${inquiryEmail}?subject=${subject}&body=${encodeURIComponent(body)}`;
+      statusEl.textContent = `Your email app should open now. If it does not, write to ${inquiryEmail}.`;
     });
   </script>
 </body>
